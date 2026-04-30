@@ -19,7 +19,7 @@ const translations = {
     'about.label': 'El juego',
     'about.title': '¿Qué es Open League Manager?',
     'about.p1':    'Open League Manager es un juego de gestión de escritorio donde tomas el control de un equipo profesional de League of Legends. Gestiona fichajes, diseña tácticas, planifica entrenamientos y administra las finanzas del club con un único objetivo: convertirte en campeón.',
-    'about.p2':    'Construido con Tauri, Rust y React, el proyecto sigue la línea de OpenFootManager adaptada al ecosistema de los esports. Gratuito, de código abierto y desarrollado por y para la comunidad.',
+    'about.p2':    'Construido con Tauri, Rust y React, OLManager es un proyecto completamente independiente dedicado al ecosistema de los esports. Gratuito, de código abierto y desarrollado por y para la comunidad.',
     'about.card':  '"Lleva a tu equipo desde las ligas regionales hasta los campeonatos mundiales"',
 
     'features.label': 'Funcionalidades',
@@ -97,7 +97,7 @@ const translations = {
     'about.label': 'The game',
     'about.title': 'What is Open League Manager?',
     'about.p1':    'Open League Manager is a desktop management game where you take control of a professional League of Legends team. Handle transfers, design tactics, schedule training sessions and manage club finances — all with one goal: become a champion.',
-    'about.p2':    'Built with Tauri, Rust and React, the project follows the OpenFootManager lineage adapted to the esports ecosystem. Free, open-source and built by and for the community.',
+    'about.p2':    'Built with Tauri, Rust and React, OLManager is a fully independent project dedicated to the esports ecosystem. Free, open-source and built by and for the community.',
     'about.card':  '"Lead your team from regional leagues to world championships"',
 
     'features.label': 'Features',
