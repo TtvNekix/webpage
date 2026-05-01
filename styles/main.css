@@ -874,6 +874,24 @@ code {
   color: var(--text-dim);
 }
 
+.footer-powered {
+  border-top: 1px solid var(--border);
+  margin-top: 12px;
+  padding-top: 12px;
+  font-size: 0.78rem;
+  color: var(--text-dim);
+}
+
+.powered-link {
+  color: var(--gold);
+  font-weight: 600;
+  transition: color var(--transition);
+}
+
+.powered-link:hover {
+  color: var(--gold-light);
+}
+
 /* ============================================================
    REVEAL ANIMATIONS
    ============================================================ */
