@@ -880,6 +880,7 @@ code {
   padding-top: 12px;
   font-size: 0.78rem;
   color: var(--text-dim);
+  text-align: center;
 }
 
 .powered-link {
