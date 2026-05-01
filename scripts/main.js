@@ -74,8 +74,8 @@ const translations = {
 
     'team.label':              'Equipo',
     'team.title':              'Programadores principales',
-    'team.role.founder':       'Fundador &amp; Lead Developer',
-    'team.bio.aalonsolopez':   'Software Engineer · Starion Group @ ESA (ESAC) · Madrid',
+    'team.role.founder':       'Fundador & Lead Developer',
+    'team.bio.aalonsolopez':   'Software Engineer · Madrid',
 
     'contrib.label': 'Contribuidores',
     'contrib.title': 'Gente que hace esto posible',
@@ -163,8 +163,8 @@ const translations = {
 
     'team.label':              'Team',
     'team.title':              'Core developers',
-    'team.role.founder':       'Founder &amp; Lead Developer',
-    'team.bio.aalonsolopez':   'Software Engineer · Starion Group @ ESA (ESAC) · Madrid',
+    'team.role.founder':       'Founder & Lead Developer',
+    'team.bio.aalonsolopez':   'Software Engineer · Madrid',
 
     'contrib.label': 'Contributors',
     'contrib.title': 'People who make this possible',
