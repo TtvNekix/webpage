@@ -977,3 +977,177 @@ code {
   .oss-cta   { flex-direction: column; }
   .hero-stats { gap: 16px; }
 }
+
+/* ============================================================
+   TEAM
+   ============================================================ */
+.team-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  justify-content: center;
+}
+
+.team-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--gold);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 280px;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+
+.team-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-gold);
+}
+
+.team-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 3px solid var(--gold);
+  object-fit: cover;
+  margin-bottom: 16px;
+  filter: drop-shadow(0 0 12px rgba(200,155,60,0.3));
+}
+
+.team-name {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.team-handle {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  margin-bottom: 10px;
+}
+
+.team-role {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gold);
+  background: rgba(200,155,60,0.1);
+  border: 1px solid rgba(200,155,60,0.25);
+  padding: 4px 14px;
+  border-radius: 99px;
+  margin-bottom: 14px;
+}
+
+.team-bio {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-bottom: 20px;
+}
+
+.team-links {
+  display: flex;
+  gap: 12px;
+}
+
+.team-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--bg-dark);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition: color var(--transition), border-color var(--transition), background var(--transition);
+}
+
+.team-link:hover {
+  color: var(--gold);
+  border-color: var(--gold-dim);
+  background: rgba(200,155,60,0.1);
+}
+
+/* ============================================================
+   CONTRIBUTORS
+   ============================================================ */
+.contrib-block {
+  margin-bottom: 48px;
+}
+
+.contrib-block:last-child { margin-bottom: 0; }
+
+.contrib-subtitle {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.contrib-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.contrib-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 18px;
+  width: 120px;
+  text-align: center;
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+  cursor: pointer;
+}
+
+.contrib-card:hover {
+  border-color: var(--gold-dim);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-gold);
+}
+
+.contrib-card img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  transition: border-color var(--transition);
+}
+
+.contrib-card:hover img { border-color: var(--gold); }
+
+.contrib-name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+  word-break: break-all;
+}
+
+.contrib-count {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+@media (max-width: 768px) {
+  .team-card { width: 100%; max-width: 320px; }
+  .contrib-grid { justify-content: center; }
+}

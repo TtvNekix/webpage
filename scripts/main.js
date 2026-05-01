@@ -6,6 +6,7 @@ const translations = {
     'nav.features':   'Características',
     'nav.about':      'Sobre el juego',
     'nav.status':     'Estado',
+    'nav.team':       'Equipo',
     'nav.community':  'Comunidad',
     'nav.download':   'Descargar',
 
@@ -71,6 +72,16 @@ const translations = {
     'community.github.desc':  'Explora el código fuente, abre issues, revisa el roadmap y envía tus contribuciones.',
     'community.github.cta':   'Ver repositorio →',
 
+    'team.label':              'Equipo',
+    'team.title':              'Programadores principales',
+    'team.role.founder':       'Fundador &amp; Lead Developer',
+    'team.bio.aalonsolopez':   'Software Engineer · Starion Group @ ESA (ESAC) · Madrid',
+
+    'contrib.label': 'Contribuidores',
+    'contrib.title': 'Gente que hace esto posible',
+    'contrib.game':  '🎮 Juego',
+    'contrib.web':   '🌐 Web',
+
     'footer.desc':      'Juego de gestión de esports libre y de código abierto.',
     'footer.links':     'Enlaces',
     'footer.contribute':'Contribuir',
@@ -84,6 +95,7 @@ const translations = {
     'nav.features':   'Features',
     'nav.about':      'About',
     'nav.status':     'Status',
+    'nav.team':       'Team',
     'nav.community':  'Community',
     'nav.download':   'Download',
 
@@ -148,6 +160,16 @@ const translations = {
     'community.discord.cta':  'Join the server →',
     'community.github.desc':  'Explore the source code, open issues, review the roadmap and submit your contributions.',
     'community.github.cta':   'View repository →',
+
+    'team.label':              'Team',
+    'team.title':              'Core developers',
+    'team.role.founder':       'Founder &amp; Lead Developer',
+    'team.bio.aalonsolopez':   'Software Engineer · Starion Group @ ESA (ESAC) · Madrid',
+
+    'contrib.label': 'Contributors',
+    'contrib.title': 'People who make this possible',
+    'contrib.game':  '🎮 Game',
+    'contrib.web':   '🌐 Web',
 
     'footer.desc':      'Free, open-source esports management game.',
     'footer.links':     'Links',
