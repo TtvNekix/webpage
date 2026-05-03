@@ -53,6 +53,10 @@ const translations = {
     'cl.3': 'Gráfica de ventaja de oro con gradiente y segmentos por color de equipo',
     'cl.4': 'Clasificaciones con formato Maps LoL (ej: "12-4", "+8")',
     'cl.5': 'Finalización correcta de series Bo3/Bo5',
+    'cl.6': 'Selección de destino al fichar: Equipo Principal o Academia',
+    'cl.7': 'Mensaje de revisión de objetivos de junta al final de temporada',
+    'cl.8': 'Draft con filtrado y ordenación de campeones por meta y maestría',
+    'cl.9': 'Rotación de preguntas en rueda de prensa para evitar repeticiones',
 
     'oss.label':         'Código abierto',
     'oss.title':         'Construido por la comunidad, para la comunidad',
@@ -144,6 +148,10 @@ const translations = {
     'cl.3': 'Gold advantage chart with gradient and team-colored segments',
     'cl.4': 'LoL-format Maps standings (e.g. "12-4", "+8")',
     'cl.5': 'Correct Bo3/Bo5 series completion detection',
+    'cl.6': 'Signing destination selection: Main Team or Academy',
+    'cl.7': 'End-of-season board objective review message with results',
+    'cl.8': 'Draft champion filtering and sorting by meta tier and mastery',
+    'cl.9': 'Press conference question rotation to avoid repetition',
 
     'oss.label':         'Open source',
     'oss.title':         'Built by the community, for the community',
